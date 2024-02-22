@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Enlace estilos Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>TOP 5 Montañas</title>
+
+
+</head>
+<body>
+    <div class="navegador">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><strong>⛰️TOP 5 Montañas más altas del mundo</strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menú</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Himalaya</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Guía
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Seguros</a></li>
+                    <li><a class="dropdown-item" href="#">Federación</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Contacto</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- ----------------CARROUSEL---------------- -->
+
+    <div id="carouselExampleCaptions" class="carousel slide col-10 mx-auto">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner" >
+          <div class="carousel-item active">
+            <img src="/images/1_Everest.jpg" class="d-block w-100" alt="Monte Everest">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="color-texto"><strong>Monte Everest</strong></h3>
+              <p class="color-texto">El monte Everest es <strong>la montaña más alta del mundo</strong> con una altura de <strong>8.848 metros</strong> sobre el nivel del mar.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="/images/2_K2.jpg" class="d-block w-100" alt="K2">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="color-texto">K2</h3>
+              <p class="color-texto">El K2 es una montaña perteneciente a la cordillera del Karakórum, una sección del Himalaya, localizada en la frontera entre Pakistán, tiene una altura de <strong>8.611 metros</strong>.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="/images/3_Kangchenjunga.jpg" class="d-block w-100" alt="Kangchenjunga">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Kangchenjunga</h3>
+              <p>Kanchenjunga es <strong>la tercera montaña</strong> más alta del mundo, después del monte Everest y del K2, con una altura de <strong>8.586 metros</strong>.</p>
+            </div>
+          </div>
+            
+          <div class="carousel-item">
+            <img src="/images/4_Lhotse.jpg" class="d-block w-100" alt="Lhotse">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Lhotse</h3>
+              <p>El Lhotse es <strong>la cuarta montaña</strong> más alta del mundo con una altura de <strong>8.516 metros</strong>.</p>
+            </div>
+          </div>
+                    
+          <div class="carousel-item ">
+            <img src="/images/5_Makalu.jpg" class="d-block w-100" alt="Makalu">
+            <div class="carousel-caption d-none d-md-block">
+              <h3  class="color-texto">Makalu</h3>
+              <p  class="color-texto">Makalu es <strong>la quinta montaña</strong> más alta del mundo, con <strong>8.463 metros</strong> de altura. Es una de las 14 montañas que tienen una altitud de más de 8.000 metros.</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div class="container-fluid col-11 mt-3 justify-content-center">
+        <div class="row">
+            <div class="col-xl-6 col-md-6 p-3 col-12 Descripcion1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eaque, iste dignissimos vero excepturi, nemo iusto illo, itaque numquam repellendus asperiores animi quo sint nobis ab rem atque eligendi voluptatem quasi illum? Debitis quas sunt consequuntur. Modi aliquid maxime, aliquam iure saepe laborum consectetur error accusantium ad. Fuga distinctio natus omnis nemo. Laborum, optio consequatur. Non natus optio dolores numquam, facilis dolor at adipisci illum perferendis dignissimos, quibusdam veritatis maxime rem sint illo nobis, ipsam odio accusamus dicta voluptatem incidunt est. Iure consequuntur eveniet nemo?</div>
+            <div class="col-xl-6 col-md-6 p-3 col-12 Descripcion1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, enim possimus veritatis cum suscipit nemo minus animi ab, unde recusandae quisquam ducimus, corrupti optio itaque numquam saepe neque nesciunt facilis nisi sapiente dolorem. Cumque quae harum rem inventore accusantium voluptatibus dolorum neque natus ratione sunt dignissimos, delectus, perspiciatis repellat itaque.</div>
+        </div>
+    </div>
+
+
+<div class="container-fluid d-flex flex-wrap justify-content-around">
+        
+        <div class="card col-xl-4 col-md-4 col-12 bg-warning">
+                <img src="/images/1_Everest.jpg" class="card-img-top" alt="One Piece">
+                <div class="card-body">
+                <h5 class="card-title">Kayak</h5>
+                <p class="card-text">Kayak en Ametlla de mar.</p>
+                <a href="http://YouTube.com" target="_blank" class="btn btn-primary">YouTube</a>
+                </div>
+        </div>
+
+        <div class="card col-xl-4 col-md-4 col-12 bg-warning">
+            <img src="/images/2_K2.jpg" class="card-img-top" alt="One Piece">
+            <div class="card-body">
+            <h5 class="card-title">Tarragona</h5>
+            <p class="card-text">Puente escalada Tarragona.</p>
+            <a href="http://YouTube.com" target="_blank" class="btn btn-primary">YouTube</a>
+            </div>
+        </div>    
+
+        <div class="card col-xl-4 col-md-4 col-12 bg-warning">
+            <img src="/images/3_Kangchenjunga.jpg" class="card-img-top" alt="One Piece">
+            <div class="card-body">
+            <h5 class="card-title">Targassone</h5> 
+            <p class="card-text">Pirineo Francés.</p>
+            <a href="http://YouTube.com" target="_blank" class="btn btn-primary">YouTube</a>
+            </div>
+        </div>
+
+        <div class="card col-xl-4 col-md-4 col-12 bg-warning">
+          <img src="/images/4_Lhotse.jpg" class="card-img-top" alt="One Piece">
+          <div class="card-body">
+          <h5 class="card-title">Tarragona</h5>
+          <p class="card-text">Piso Esqueleto.</p>
+          <a href="http://YouTube.com" target="_blank" class="btn btn-primary">YouTube</a>
+          </div>
+        </div>
+    
+        <div class="card col-xl-4 col-md-4 col-12 bg-warning">
+          <img src="/images/5_Makalu.jpg" class="card-img-top" alt="One Piece">
+          <div class="card-body">
+          <h5 class="card-title">Rocódromo</h5>
+          <p class="card-text">CET: Centre Excursionista de Tarragona.</p>
+          <a href="http://YouTube.com" target="_blank" class="btn btn-primary">YouTube</a>
+        </div>
+    </div>
+
+</div>
+
+<div class="container-fluid">
+
+    <div class="row d-flex flex-wrap ">
+        <div class="col-xl-4 col-md-6 col-12 bg-info">columna-1</div>
+        <div class="col-xl-4 col-md-3 col-12 bg-primary">columna-2</div>
+        <div class="col-xl-4 col-md-3 col-12 bg-secondary">columna-3</div>
+    </div>
+
+    <div class="row">
+        <div class="col-xl-6 col-md-12 bg-warning">columna-4</div>
+        <div class="col-xl-6 col-md-12 bg-success">columna-5</div>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

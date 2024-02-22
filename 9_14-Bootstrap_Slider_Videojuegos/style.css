@@ -1,0 +1,19 @@
+body{
+    background-color: #1f2224f5;
+}
+
+.color-texto{
+    color: #fff127;
+    text-shadow: 0px 0px 10px #000000;
+}
+
+.carousel{
+    margin-top: 75px;
+}
+
+.Descripcion1{
+    color: rgb(98, 137, 137);
+    background-color: #1f222400;
+    text-align: justify     ;
+    
+}
