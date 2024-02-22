@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <div class="centrar">
+    <fieldset class="dividir">
+
+    <!-- Formulario 1 -->
+    <fieldset class="caja1">
+        <legend><h2>Datos personales</h2></legend>
+
+        <form action="https://formsubmit.co/26fc1018df1707c6885ba1c026a2afdf" method="POST">
+        
+        <label for="nombre"><strong>Nombre:</strong><a>*</a></label>
+        <input type="text" id="nombre" name="nombre" placeholder="Fouad" required><br><br>
+
+        <label for="apellido"><strong>Apellidos:</strong><a>*</a></label>
+        <input type="text" id="apellido" name="apellido" placeholder="Rifi El Amrani " required><br><br>
+
+        <label for="edad"><strong>Edad:</strong><a>*</a></label>
+        <input type="number" id="edad" name="edad" placeholder="27" required min="18" max="100"><br><br>
+
+        <label for="email"><strong>E-mail:</strong><a>*</a></label>
+        <input type="email" id="email" name="email" placeholder="rifi.fouad1996@gmail.com" required><br><br>
+
+        <label for="asunto"><strong>Asunto:</strong><a>*</a></label>
+        <input type="text" id="asunto" name="asunto" placeholder="Rellene asunto aquí..." maxlength="40" required><br><br>
+
+        <label for="comentario"><strong>Comentario:</strong></label><br><br>
+        <textarea name="comentario" id="comentario" maxlength="150" cols="35" rows="10" placeholder="Escriba aquí su comentario..."></textarea><br>
+        
+    </fieldset>
+
+    <!-- Formulario 2 -->
+
+    <fieldset class="caja2">
+        <legend><h2>Viaje</h2></legend>
+
+        <label for="paisOrigen"><p><strong>País de origen:</strong></p></label>
+
+        <select name="paisOrigen" id="paisOrigen" required>
+        <option id="SelectCiudad" value="A0">Seleccionar país...</option><br>
+        <option value="Espana">España</option>
+        <option value="Francia">Francia</option>
+        <option value="Italia">Italia</option>
+        <option value="Portugal">Portugal</option>
+        </select>
+        <br>
+    
+
+        <p><strong>País de destino:</strong></p>
+        <input type="radio" id= "Brasil" value="Brasil" name="paisDestino">
+        <label for="Brasil">Brasil</label><br>
+        <input type="radio" id= "Japon" value="Japon" name="paisDestino">
+        <label for="Japon">Japón</label><br>
+        <input type="radio" id= "Egipto" value="Egipto" name="paisDestino">
+        <label for="Egipto">Egipto</label><br>
+        <input type="radio" id= "Peru" value="Peru" name="paisDestino">
+        <label for="Peru">Perú</label>
+
+
+        <p><strong>Contratar servicios extra:</strong></p>
+        <input type="checkbox" id="hotel" name="hotel" value="yes">
+        <label for="hotel"> Hotel</label><br>
+        <input type="checkbox" id="car" name="car" value="yes">
+        <label for="car"> Coche</label><br>
+        <input type="checkbox" id="guia" name="guia" value="yes">
+        <label for="guia"> Guía</label><br>
+
+    
+    
+    </fieldset>  
+</fieldset>
+</div>
+<div class="boton">
+<input class="botoninput" type="submit" value="Enviar">
+</div>
+</form>
+
+
+</body>
+</html>
