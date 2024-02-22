@@ -1,0 +1,22 @@
+.container-fluid{
+    background-color: rgba(147, 248, 38, 0.391);
+}
+
+.titulo{
+    color: blue;
+}
+
+.cards{
+    display: flex;
+
+}
+
+
+.card:hover{
+    rotate: 5deg;
+    box-shadow: 20px 20px 20px black;
+}
+
+.row{
+    height: 150px;
+}
